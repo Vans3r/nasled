@@ -13,6 +13,7 @@ export default class Character {
     this.type = type;
     this.health = 100;
     this.level = 1;
+    this.defence = 0;
   }
 
   levelUp() {
@@ -30,7 +31,7 @@ export default class Character {
     if (points < 0) throw new Error('Урон не может быть отрицательным');
 
     const damage = points * (1 - this.defence / 100);
-    this.health = Number(Math.max(0, this.health - damage));
+    this.health = Math.max(0, this.health - damage);
   }
 }
 

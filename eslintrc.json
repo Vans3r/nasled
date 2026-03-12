@@ -1,7 +1,0 @@
-{
-  "extends": "airbnb-base",
-  "rules": {
-    "no-console": "warn",
-    "import/extensions": 0
-  }
-}

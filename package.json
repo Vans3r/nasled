@@ -1,0 +1,27 @@
+{
+  "name": "nasled",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest",
+    "lint": "eslint src/ test/",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0",
+    "@eslint/js": "^8.57.1",
+    "babel-jest": "^30.3.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.4.0",
+    "jest": "^30.3.0",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1"
+  }
+}
